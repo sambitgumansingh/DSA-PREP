@@ -5,10 +5,10 @@ using namespace std;
 int linearsrch(int arr[] , int size , int key){
     for(int i=0;i<size;i++){
         if (arr[i]==key){
-            return 1;
+            return i + 1;
         }
-        return 0;
     }
+    return 0;
 }
 
 int main(){
